@@ -136,7 +136,9 @@ class TabsTable extends React.Component {
       <div className={classes.body}>
         <div className={classes.bodyTop}>
           <div className={classes.top}>
-            <img src="https://picsum.photos/157/38?random" alt="logo" />
+            <a href="#">
+              <img src="https://picsum.photos/157/38?random" alt="logo" />
+            </a>
             <a href="#">{this.svg()}</a>
             <a href="#">{this.svg()}</a>
             <a href="#">{this.svg()}</a>
