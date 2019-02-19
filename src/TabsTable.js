@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
-import { relative } from "path";
 
 const styles = theme => ({
   body: {
@@ -197,7 +196,7 @@ class TabsTable extends React.Component {
           </div>
         </div>
         <div className={classes.bodyBottom}>
-          <input placeholder="Write meassage..." className={classes.input} />
+          <textarea placeholder="Write meassage..." className={classes.input} />
           <a href="#" className={classes.rules}>
             {this.svg()} Chat rules
           </a>
